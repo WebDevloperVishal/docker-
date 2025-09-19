@@ -60,4 +60,14 @@ intel/nginx                                                                     
 circleci/nginx                           This image is for internal use                  2
 docksal/nginx                            Nginx service image for Docksal                 1
 corpusops/nginx                          https://github.com/corpusops/docker-images/     1
+
+Deleting Image
+
+$ docker image prune -a
+WARNING! This will remove all images without at least one container associated to them.
+Are you sure you want to continue? [y/N] y
+Deleted Images:
+untagged: ubuntu:20.04
+deleted: sha256:8feb4d8ca5354def3d8fce243717141ce31e2c428701f6682bd2fafe15388214
+deleted: sha256:c664f8f86ed5a386b0a340d981b8f81714e21a8b9c73f658c4bea56aa179d54a
 */
