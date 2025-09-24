@@ -332,4 +332,15 @@ ecc5b55cbdf2   nginx     "/docker-entrypoint.…"   25 seconds ago   Up 24 secon
 vishal sanam@LAPTOP-GHS5GD2E MINGW64 ~/Downloads/Docker/Day-1 (main)
 $
 
+$ docker run --name myos -d ubuntu 
+d0662bc10c8488e28275932e23e3ac0e81b54a3e54bb2090d3b48d7f0bf80d40
+
+vishal sanam@LAPTOP-GHS5GD2E MINGW64 ~/Downloads/Docker/Day-1 (main)
+$ docker ps 
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+vishal sanam@LAPTOP-GHS5GD2E MINGW64 ~/Downloads/Docker/Day-1 (main)
+$ docker exec -it redis-stack redis-cli
+127.0.0.1:6379> 
+
 */
