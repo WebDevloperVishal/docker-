@@ -1,4 +1,3 @@
-
 import express, { json } from 'express';
 import { Client } from 'pg';
 import { createClient } from 'redis';
