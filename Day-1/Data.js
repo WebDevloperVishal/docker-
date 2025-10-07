@@ -18,4 +18,6 @@ $ docker stop my-nginx
 $ docker restart my-nginx
 $ docker stop my-nginx
 $vdocker rm my-nginx
+$ docker run --name myos -d ubuntu 
+$ docker run  -d ubuntu 
 */
