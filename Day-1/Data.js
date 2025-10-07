@@ -10,4 +10,7 @@ $ docker pull nginx
 $ docker run nginx
 $ docker run ubuntu
 $ docker run -d nginx
+$ docker run --name my-nginx nginx
+$ docker run --name my-nginx -d nginx
+$ docker ps
 */
