@@ -15,4 +15,7 @@ $ docker run --name my-nginx -d nginx
 $ docker ps
 $ docker ps -a
 $ docker stop my-nginx
+$ docker restart my-nginx
+$ docker stop my-nginx
+$vdocker rm my-nginx
 */
