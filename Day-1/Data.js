@@ -9,4 +9,5 @@ $ docker image prune -a
 $ docker pull nginx
 $ docker run nginx
 $ docker run ubuntu
+$ docker run -d nginx
 */
