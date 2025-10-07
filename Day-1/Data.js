@@ -13,4 +13,6 @@ $ docker run -d nginx
 $ docker run --name my-nginx nginx
 $ docker run --name my-nginx -d nginx
 $ docker ps
+$ docker ps -a
+$ docker stop my-nginx
 */
