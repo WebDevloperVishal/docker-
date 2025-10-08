@@ -20,4 +20,5 @@ $ docker stop my-nginx
 $vdocker rm my-nginx
 $ docker run --name myos -d ubuntu 
 $ docker run  -d ubuntu 
+$ docker run -d --name redis-stack redis
 */
