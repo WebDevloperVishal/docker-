@@ -21,4 +21,5 @@ $vdocker rm my-nginx
 $ docker run --name myos -d ubuntu 
 $ docker run  -d ubuntu 
 $ docker run -d --name redis-stack redis
+$ docker exec -it redis-stack redis-cli 
 */
